@@ -10,26 +10,25 @@ class zoo {
 };
 class animal: public zoo {
 
-}
+};
 class tigre: public animal{
 
-}
+};
 class aigle: public animal{
 
-}
+};
 class poule: public animal{
 
-}
-
+};
 class habitat: public tigre{
 
-}
+};
 class habitat: public aigle{
     
-}
+};
 class habitat: public poule{
     
-}
+};
 
 
 int main(){
