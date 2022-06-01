@@ -49,9 +49,3 @@ int main(){
 
     return 0;
 }
-
-
-
-class male: publique tigre {
-    ...
-}
