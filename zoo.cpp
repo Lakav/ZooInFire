@@ -1,5 +1,6 @@
 #include "zoo.h"
-
+#include <iostream>
+using namespace std;
 
 Zoo::Zoo(float wallet)
 {
@@ -38,22 +39,27 @@ void Zoo::sellChicken()
 
 void Zoo::killTiger()
 {
-
+    cout << "Un tigre est mort.";
 }
 
 void Zoo::killEagle()
 {
-
+    cout << "Un aigle est mort.";
 }
 
 void Zoo::killchicken()
 {
-
+    cout << "Une poule ou un coq est mort";
 }
 
 void Zoo::eat()
 {
 
+}
+
+void Zoo::isHungry()
+{
+    cout << "un specimen a faim";
 }
 
 void Zoo::buyMeat()
@@ -137,5 +143,5 @@ void Zoo::time()
 
 void Zoo::nextMonth()
 {
-    
+
 }

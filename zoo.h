@@ -15,6 +15,7 @@ protected:
     void killEagle();
     void killchicken();
     void eat();
+    void isHungry();
     void buyMeat();
     void buySeed();
     void buyTigerHouse();
