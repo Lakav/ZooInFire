@@ -4,7 +4,12 @@
 
 class Habitat: public Zoo{
 public:
-    Habitat();
+    private:
+    int _priceBuy;
+    int _priceSell;
+    int _capacity;
+public:
+    Habitat(int priceBuy, int priceSell, int capacity);
 };
 
 #endif

@@ -1,5 +1,7 @@
 #include "habitat.h"
 
-Habitat::Habitat(){
-    
-}
+Habitat::Habitat(int priceBuy, int priceSell, int capacity){
+    _priceBuy = priceBuy;
+    _priceSell = priceSell;
+    _capacity = capacity;
+};
