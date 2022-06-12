@@ -10,16 +10,9 @@
 class Zoo{
     //atributs
     private:   
-        Tiger* arrayOfTiger;
-        Eagle* arrayOfEagle;
-        Chicken* arrayOfChicken;
-        int money;
-        int numberOfTiger;
-        int numberOfEagle;
-        int numberOfChicken;
 
     //methodes
     public:
-        Zoo();
+
 };
 #endif

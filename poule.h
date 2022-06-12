@@ -1,17 +1,11 @@
 #ifndef POULE_H
 #define POULE_H
+#include "animal.h"
 
-class Chicken: public Animal{
-        private:
-        bool chickenMaleOrFemale;
-        bool chickenHunger;
-        int chickenPregnancy;
-        int chickenLifeExectancy;
-        bool chickenLoyalty;
-        int chickenAge;
-
-        public: 
-
+class Chicken: public iAnimal{
+public:
+    Chicken(int price): iAnimal(50, false, 0.15, 1, false);
+    
 };
 
 

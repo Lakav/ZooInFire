@@ -1,24 +1,16 @@
-#include <iostream>
-#include <string>
-using namespace std;
+#include<iostream>
+#include "animal.h" 
+#include "tigre.h"
+#include "aigle.h"
+#include "poule.h"
+#include "zoo.h"
 
-int money 80000
+using std::cout;
+using std::cin;
+using std::endl;
 
+int main()
+{
 
-int main(){
-
-    //menu
-    cout << "Vous avez : " << money << "€"<< endl; 
-    //achats
-    //demander a quel animal est lié l'achat et faire des sous menu 
-    cout << 
-    //vente
-    //demander a quel animal est lié la vente 
-
-    //gestion 
-    //possibilité de faire déplacer un animal d'un enclo a un autre
-
-    //passer le mois
-
-    return 0;
+	return 0;
 }

@@ -4,9 +4,7 @@
 
 class Habitat: public Zoo{
     private:
-        int tigerMax;
-        int chickenMax;
-        int eagleMax;
+
 
 };
 
