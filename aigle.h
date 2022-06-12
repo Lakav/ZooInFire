@@ -4,7 +4,7 @@
 
 class Eagle: public iAnimal{
 public:
-    Eagle(int price): iAnimal(1000, false, 0.3, 10, false, 2000, 500){};
+    Eagle(int price): iAnimal(1000, false, 0.3, 10, false, 2000, 500, 4){};
     
 };
 

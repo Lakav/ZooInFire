@@ -3,8 +3,10 @@
 
 
 class Habitat{
+    private:
     int _capacity;
-    
+    public:
+        Habitat();
 };
 
 #endif
