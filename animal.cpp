@@ -1,6 +1,6 @@
 #include "animal.h"
 
-iAnimal::iAnimal(int price, bool isCarnivor, int eatQuantity, int dayBeforeHunger, bool isSick){
+iAnimal::iAnimal(int price, bool isCarnivor, float eatQuantity, int dayBeforeHunger, bool isSick){
     _price = price;
     _isCarnivor = isCarnivor;
     _eatQuantity = eatQuantity;
