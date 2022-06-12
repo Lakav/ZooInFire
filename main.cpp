@@ -11,6 +11,6 @@ using std::endl;
 
 int main()
 {
-
+	Zoo Test(80000);
 	return 0;
 }
