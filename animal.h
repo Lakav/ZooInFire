@@ -9,10 +9,11 @@ protected:
     float _eatQuantity;
     int _dayBeforHunger;
     bool _isSick;
-    float _habitatPrice;
+    float _habitatPriceBuy;
+    float _habitatPriceSell;
 
 public:
-    iAnimal(int price, bool isCarnivor, float eatQuantity, int dayBeforeHunger, bool isSick, float habitatPrice);
+    iAnimal(int price, bool isCarnivor, float eatQuantity, int dayBeforeHunger, bool isSick, float habitatPriceBuy,float habitatPriceSell);
 
 };
 

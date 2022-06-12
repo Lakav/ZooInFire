@@ -3,9 +3,8 @@
 
 
 class Habitat{
-
+    int _capacity;
+    
 };
-
-
 
 #endif
