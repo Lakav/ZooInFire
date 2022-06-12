@@ -2,7 +2,7 @@
 #define ANIMAL_H
 #include "zoo.h"
 
-class iAnimal: public Zoo{
+class iAnimal{
 protected:
     int _price;
     bool _isCarnivor;
